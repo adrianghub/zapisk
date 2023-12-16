@@ -5,7 +5,7 @@ export default defineConfig({
     host: "0.0.0.0",
     proxy: {
       "/socket.io/": {
-        target: "http://localhost:3000",
+        target: "https://zapiski-server.onrender.com",
         changeOrigin: true,
         secure: false,
         ws: true,
