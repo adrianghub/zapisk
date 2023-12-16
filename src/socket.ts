@@ -11,3 +11,5 @@ socket.on("notes", (notes) => {
 });
 
 socket.emit("clientMessage", "Hello, server!");
+
+export { socket };

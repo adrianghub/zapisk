@@ -5,8 +5,8 @@ services:
     image: postgres:latest
     container_name: pg-notes-container
     environment:
-      POSTGRES_DB: notes
-      POSTGRES_USER: admin1
-      POSTGRES_PASSWORD: admin
+      # POSTGRES_DB: ...
+      # POSTGRES_USER: ...
+      # POSTGRES_PASSWORD: ...
     ports:
       - "5432:5432"
